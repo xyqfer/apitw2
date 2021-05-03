@@ -8,6 +8,7 @@ app.enable('trust proxy');
 
 app.use(cors({
   origin: true,
+  credentials: true,
 }));
 
 app.use(
